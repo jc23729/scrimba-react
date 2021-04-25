@@ -2,10 +2,10 @@ import React from "react";
 
 function ContactCard(props) {
   return (
-    <div className="contact-card">
-      <img src={props.name} />
-      <h3>{props.phone}</h3>
-      <p>{props.email}</p>
+    <div>
+          <h3>Name: { props.name}</h3>
+      <h3>Phone number: {props.phone}</h3>
+      <p>Email: {props.email}</p>
     </div>
   );
 }

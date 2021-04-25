@@ -9,10 +9,24 @@ import ContactCard from "./components/ContactCard";
 function App(props) {
   return (
     <div>
-      <ContactCard name="Juan" phone="9172348681" email="sfdsfsd@gmail.com" />
-      <ContactCard name="Jessica" phone="545-243-8691" email="jessica@gmail.com" />
-      <ContactCard name="Tony" phone="343-243-8691" email="Tony@gmail.com" />
-      <ContactCard name="Christina" phone="914-243-8691" email="Christina@gmail.com" />
+      <ContactCard
+        name="Juan"
+        phone="9172348681"
+        email="sfdsfsd@gmail.com" />
+      <ContactCard
+        name="Jessica"
+        phone="545-243-8691"
+        email="jessica@gmail.com"
+      />
+      <ContactCard
+        name="Tony"
+        phone="343-243-8691"
+        email="Tony@gmail.com" />
+      <ContactCard
+        name="Christina"
+        phone="914-243-8691"
+        email="Christina@gmail.com"
+      />
     </div>
   );
 }
