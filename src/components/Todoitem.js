@@ -1,24 +1,12 @@
-import React from 'react';
-
-
+import React from "react";
 
 function TodoItem() {
-    return (
-        <input type="checkbox" />
-<p>Placeholder text here</p>
-    )
-
+  return (
+    <div>
+      <input type="checkbox" />
+      <p>Placeholder text here</p>
+    </div>
+  );
 }
 
 export default TodoItem;
-// <input type="checkbox" />
-// <p>Placeholder text here</p>
-
-// <input type="checkbox" />
-// <p>Placeholder text here</p>
-
-// <input type="checkbox" />
-// <p>Placeholder text here</p>
-
-// <input type="checkbox" />
-// <p>Placeholder text here</p>
