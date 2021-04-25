@@ -4,4 +4,4 @@ function MainContent() {
   return <p>This is the main content</p>;
 }
 
-export default Footer;
+export default MainContent;
