@@ -29,3 +29,16 @@ export default App;
 
 // <input type="checkbox" />
 // <p>Placeholder text here</p>
+
+
+
+// function App() {
+//   return (
+//     <div className="todo-list">
+//       <TodoItem />
+//       <TodoItem />
+//       <TodoItem />
+//       <TodoItem />
+//     </div>
+//   );
+// }
