@@ -3,10 +3,13 @@ import React from "react";
 
 
 
-function ContactCard() {
+function ContactCard(props) {
     return (
-      <div>
-        <h1>testing</h1>
+      <div className="contact-card">
+            <img src="" />
+            <h3>{ props.name }</h3>
+            <p></p>
+            <p></p>
       </div>
     );
 

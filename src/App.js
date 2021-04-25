@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import TodoItem from "./components/TodoItem";
 import  ContactCard from './components/ContactCard'
 
-function App() {
+function App(props) {
   return (
     <div className="todo-list">
       <ContactCard
