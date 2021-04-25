@@ -9,7 +9,15 @@ import  ContactCard from './components/ContactCard'
 function App() {
   return (
     <div className="todo-list">
-      <ContactCard />
+      <ContactCard name="Juan" imageURL="" phone="" email="" />
+      <ContactCard
+        name="Jessica"
+        imageURL="https://unsplash.com/photos/aJfOuWeNzko"
+        phone=""
+        email=""
+      />
+      <ContactCard name="Tony" imageURL="" phone="" email="" />
+      <ContactCard name="Christina" imageURL="" phone="" email="" />
     </div>
   );
 }
