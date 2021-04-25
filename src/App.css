@@ -10,3 +10,18 @@
   align-items: center;
 
 }
+
+.maincontent {
+
+   height: 200px;
+  background-color: blue;
+  color: whitesmoke;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
