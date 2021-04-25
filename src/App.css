@@ -25,3 +25,14 @@
 }
 
 
+.footer {
+    height: 100px;
+  background-color: black;
+  color: whitesmoke;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
