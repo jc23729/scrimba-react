@@ -7,11 +7,11 @@ import TodoItem from "./components/TodoItem";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <MainContent />
+    <div className="todo-list">
       <TodoItem />
-      <Footer />
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
     </div>
   );
 }
